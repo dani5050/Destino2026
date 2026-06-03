@@ -6,21 +6,21 @@
 <link rel="stylesheet" type="text/css" href="style_sch.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <title>Destino 2026 Deliverables</title>
 
 </head>
 
 <body>
+<script src="main.js"></script>
 <header>
 <h1>DESTINO 2026 - DELIVERABLES</h1>
 </header>
 <div>
 <nav>
 <ul>
-<li><a class="active" href="index.html">PRESIDENTIAL</a></li>
-<li><a href="senate.html">SENATE</a></li>
+<li><a class="active" href="index.html">SENATE</a></li>
 <li><a href="house.html">HOUSE</a></li>
 <li><a href="gobernors.html">GOVERNORS</a></li>
 <li><a href="propositions.html">MISC GFX</a></li>
@@ -30,8 +30,7 @@
 </ul>
 </nav>
 </div>
-
-<table>
+<table id="reservationTable">
  <tr>
     <th>NAME</th>
     <th>RACE TYPE</th>
@@ -48,10 +47,11 @@
 	<th>DESCRIPTION</th>
 	<th>SAMPLE</th>
  </tr>
-       
+    
+    
 <tr class="">
-    <td>P1</td>
-    <td>PRESIDENTIAL</td>
+    <td>S1</td>
+    <td>SENATE</td>
 	<td>RESULTS</td>
 	<td></td>
 	<td>X</td>
@@ -59,16 +59,17 @@
 	<td>X</td>
 	<td></td>
 	<td></td>
-	<td>RESULTADOS</td>
-	<td>ESTADO</td>
+	<td>SENADO FEDERAL</td>
+	<td>RESULTADO AND STATE</td>
 	<td>RECINTOS REPORTADOS %</td>
-	<td>2 HEAD PERCENTAGE</td>
-	<td><img id="myImg" class = "myImg" src="images/PRESIDENTIAL/FSG_RESULTS_PERCENTAGE.png" alt="PRESIDENTIAL RESULTS PERCENTAGES" style="width:70%;max-width:200px"></td>
+	<td>2 HEAD AND PERCENTAGE</td>
+	<td><img id="myImg" class = "myImg" src="images/SENATE/FSG_CONG_2HEAD_PERC_NEW.png" alt="SENATE RESULTS VOTE PERCENTAGE" style="width:70%;max-width:200px"></td>
 </tr>
 
+    
 <tr class="">
-    <td>P2</td>
-    <td>PRESIDENTIAL</td>
+    <td>S2</td>
+    <td>SENATE</td>
 	<td>RESULTS</td>
 	<td></td>
 	<td>X</td>
@@ -76,33 +77,32 @@
 	<td>X</td>
 	<td></td>
 	<td></td>
-	<td>RESULTADOS</td>
-	<td>ESTADO</td>
+	<td>SENADO FEDERAL</td>
+	<td>RESULTADO AND STATE</td>
 	<td>RECINTOS REPORTADOS %</td>
-	<td>2 HEAD PERCENTAGE VOTE COUNT AND VOTE DIFFERENCE</td>
-	<td><img id="myImg" class = "myImg" src="images/PRESIDENTIAL/FSG_RESULTS_VOTE_DIFF.png" alt="PRESIDENTIAL RESULTS VOTE DIFFERENCE" style="width:70%;max-width:200px"></td>
+	<td>2 HEAD % TOTAL VOTE COUNT</td>
+	<td><img id="myImg" class = "myImg" src="images/SENATE/FSG_CONG_2HEAD_VOTE_DIFF.png" alt="SENATE RESULTS VOTE DIFFERENCE" style="width:70%;max-width:200px"></td>
 </tr>
 
 <tr class="">
-    <td>P4</td>
-    <td>PRESIDENTIAL</td>
-	<td>CONTIENDA REÑIDA</td>
+    <td>S3</td>
+    <td>SENATE</td>
+	<td>RESULTS</td>
 	<td></td>
 	<td>X</td>
 	<td></td>
 	<td>X</td>
 	<td></td>
 	<td></td>
-	<td>CONTIENDA REÑIDA</td>
+	<td>COTIENDA REÑIDA</td>
 	<td>ESTADO</td>
 	<td></td>
-	<td>MAP</td>
-	<td><img id="myImg" class = "myImg" src="images/PRESIDENTIAL/CONTEST_MAP.png" alt="CCONTIENDA REÑIDA MAP" style="width:70%;max-width:200px"></td>
+	<td>2 HEAD</td>
+	<td><img id="myImg" class = "myImg" src="images/SENATE/FSG_CONG_2HEAD_CONTIENDA.png" alt="SENATE CONTIENDA REÑIDA" style="width:70%;max-width:200px"></td>
 </tr>
-
 <tr class="">
-    <td>P5</td>
-    <td>PRESIDENTIAL</td>
+    <td>S4</td>
+    <td>SENATE</td>
 	<td>PROJECCION</td>
 	<td></td>
 	<td>X</td>
@@ -110,139 +110,100 @@
 	<td>X</td>
 	<td></td>
 	<td></td>
-	<td>PROYECCION</td>
-	<td>GANADOR Y NOMBRE DEL ESTADO</td>
+	<td>SENADO FEDERAL</td>
+	<td>PROYECCION GANADOR</td>
 	<td></td>
 	<td>ONE HEAD WINNER</td>
-	<td><img id="myImg" class = "myImg" src="images/PRESIDENTIAL/FSG_WINNER_BIDEN.png" alt="PRESIDENTIAL PROJECTED WINNER" style="width:70%;max-width:200px"></td>
+	<td><img id="myImg" class = "myImg" src="images/SENATE/FSG_WINNER_CONGRESS.png" alt="SENATE PROJECTED WINNER" style="width:70%;max-width:200px"></td>
 </tr>
 
 <tr class="">
-    <td>P6</td>
-    <td>PRESIDENTIAL</td>
-	<td>PROJECCION</td>
-	<td></td>
+    <td>S5</td>
+    <td>SENATE</td>
+	<td>BALANCE OF POWER</td>
+	<td>X</td>
 	<td>X</td>
 	<td></td>
 	<td>X</td>
+	<td>X</td>
 	<td></td>
+	<td>SENADO FEDERAL</td>
+	<td>BALANCE DE PODER</td>
 	<td></td>
-	<td>PROYECCION BY CANDIDATE</td>
-	<td>GANADOS HASTA AHORA</td>
-	<td></td>
-	<td>PROJECTED STATES WON BY EACH CANDIDATE</td>
-	<td><img id="myImg" class = "myImg" src="images/PRESIDENTIAL/FSG_STATES_WON.png" alt="PROJECTED STATES WON BY CANDIDATES" style="width:70%;max-width:200px"></td>
+	<td>SENATE BOP</td>
+	<td><img id="myImg" class = "myImg" src="images/SENATE/D24_BOP_SENATE.png" alt="SENATE STATES FOR GRABS" style="width:70%;max-width:200px"></td>
 </tr>
 
 <tr class="">
-    <td>P7</td>
-    <td>PRESIDENTIAL</td>
-	<td>PRESIDENTE ELECTO</td>
+    <td>S6</td>
+    <td>SENATE</td>
+	<td>LEADERSHIP</td>
 	<td></td>
 	<td>X</td>
 	<td></td>
 	<td>X</td>
 	<td></td>
 	<td></td>
-	<td>PRESIDENTE ELECTO</td>
+	<td>SENADO FEDERAL</td>
+	<td>LIDERAZGO</td>
 	<td></td>
-	<td></td>
-	<td></td>
-	<td><img id="myImg" class = "myImg" src="images/PRESIDENTIAL/PRESIDENT_ELECT_BIDEN.png" alt="PRESIDENT ELECT" style="width:70%;max-width:200px"></td>
+	<td>LIST OF CURRENT LEADERSHIP</td>
+	<td><img id="myImg" class = "myImg" src="images/SENATE/FSG_SENATE_LEADERS.png" alt="SENATE LEADERSHIP" style="width:70%;max-width:200px"></td>
 </tr>
 
 <tr class="">
-    <td>P8</td>
-    <td>PRESIDENTIAL</td>
-	<td>PRESIDENTE ELECTO</td>
-	<td></td>
+    <td>S7</td>
+    <td>SENATE</td>
+	<td>STATES FOR GRABS</td>
+	<td>X</td>
 	<td>X</td>
 	<td></td>
-	<td>X</td>
 	<td></td>
 	<td></td>
-	<td>PRESIDENTE ELECTO</td>
 	<td></td>
+	<td>SENADO FEDERAL</td>
+	<td>ESTADOS EN DISPUTA</td>
 	<td></td>
-	<td>ONE HEAD WITH THE WINNER</td>
-	<td><img id="myImg" class = "myImg" src="images/PRESIDENTIAL/LW_PRESIDENT_ELECT.png" alt="PRESIDENT ELECT 2" style="width:70%;max-width:200px"></td>
+	<td>LIST OF PROJECTIONS</td>
+	<td><img id="myImg" class = "myImg" src="images/SENATE/FSG_MAP_STATES_FOR_GRABS.png" alt="SENATE STATES FOR GRABS" style="width:70%;max-width:200px"></td>
 </tr>
 
 <tr class="">
-    <td>P8</td>
-    <td>PRESIDENTIAL</td>
-	<td>PRESIDENTE AND VICE PRESIDENTE</td>
-	<td></td>
+    <td>S8 A</td>
+    <td>SENATE</td>
+	<td>HISPANIC FACES</td>
+	<td>X</td>
 	<td>X</td>
 	<td></td>
 	<td>X</td>
-	<td></td>
-	<td></td>
-	<td>PRESIDENTE Y VICE PRESIDENTE ELECTOS</td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td><img id="myImg" class = "myImg" src="images/PRESIDENTIAL/MAIN_WALL_PRESIDENTE_ELECTO_TICKET.png" alt="PRESIDENT ELECT TICKET" style="width:70%;max-width:200px"></td>
-</tr>
-
-
-
-<tr class="">
-    <td>P9</td>
-    <td>PRESIDENTIAL</td>
-	<td>CONTEO ELECTORAL</td>
-	<td></td>
-	<td></td>
 	<td>X</td>
 	<td></td>
-	<td>X</td>
+	<td>SENADO FEDERAL</td>
+	<td>HISPANOS EN EL SENADO</td>
 	<td></td>
-	<td>CONTEO ELECTORAL</td>
-	<td>270 PARA GANAR</td>
-	<td></td>
-	<td>MAP WITH CANDIDATES AND ELECTORAL VOTE</td>
-	<td><img id="myImg" class = "myImg" src="images/PRESIDENTIAL/FSG_CONTEO_ELECTORAL_MAP.png" alt="MAP CONTEO ELECTORAL" style="width:70%;max-width:200px"></td>
-</tr>
-
-
-
-
-<tr class="">
-    <td>P11</td>
-    <td>EN SOLO MINUTOS</td>
-	<td>EN SOLO MINUTOS</td>
-	<td></td>
-	<td>X</td>
-	<td></td>
-	<td>X</td>
-	<td></td>
-	<td></td>
-	<td>EN SOLO MINUTOS</td>
-	<td></td>
-	<td></td>
-	<td>MAP WITH UPCOMING CLOSING STATES</td>
-	<td><img id="myImg" class = "myImg" src="images/PRESIDENTIAL/FSG_MAP_NEXT_RESULTS.png" alt="EN SOLO MINUTOS MAP" style="width:70%;max-width:200px"></td>
+	<td>CARAS DE SENADORES HISPANOS</td>
+	<td><img id="myImg" class = "myImg" src="images/SENATE/FSG_SENATE_HISPANICS.png" alt="SENATE STATES FOR GRABS" style="width:70%;max-width:200px"></td>
 </tr>
 
 <tr class="">
-    <td>P12</td>
-    <td>HORA DE CIERRE</td>
-	<td>HORA DE CIERRE</td>
-	<td></td>
+    <td>S8 B</td>
+    <td>SENATE</td>
+	<td>HISPANIC FACES</td>
+	<td>X</td>
 	<td>X</td>
 	<td></td>
 	<td>X</td>
+	<td>X</td>
 	<td></td>
+	<td>SENADO FEDERAL</td>
+	<td>HISPANOS EN EL SENADO</td>
 	<td></td>
-	<td>HORA DE CIERRE</td>
-	<td></td>
-	<td></td>
-	<td>MAP WITH CLOSING TIMES BY STATE</td>
-	<td><img id="myImg" class = "myImg" src="images/PRESIDENTIAL/FSG_MAP_HORA_DE_CIERRE.png" alt="HORA DE CIERRE MAP" style="width:70%;max-width:200px"></td>
+	<td>CARAS DE SENADORES HISPANOS</td>
+	<td><img id="myImg" class = "myImg" src="images/SENATE/FSG_SENATE_HISPANICSX6.png" alt="SENATE STATES FOR GRABS" style="width:70%;max-width:200px"></td>
 </tr>
+
    
 </table>
-
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
